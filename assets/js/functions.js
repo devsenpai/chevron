@@ -549,7 +549,7 @@ Theme Version:	1.0.0
 						setCountDown();
 						setStylishScroll();
 						manageLeftSideMenu();
-						codeSecurity();
+						// codeSecurity();
 					},
 					
 					afterLoadThePage:function(){
