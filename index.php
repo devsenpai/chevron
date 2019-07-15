@@ -16,17 +16,17 @@
 	<meta name="description" content="NNPC/Chevron JV Scholarship" />
 	
 	<meta property="og:url" content="index-2.html" />
-	<meta property="og:site_name" content="EduChamp : Education HTML Template"/>
+	<meta property="og:site_name" content="NNPC/Chevron JV Scholarship"/>
 	<meta property="og:type" content="website" />
 	<meta property="og:locale" content="en_us" />
-	<meta property="og:title" content="EduChamp : Education HTML Template" />
-	<meta property="og:description" content="EduChamp is a Fully Creative Mobile Responsive HTML Template. It is designed specifically for University, College, School, Training center or other educational institute." />
+	<meta property="og:title" content="NNPC/Chevron JV Scholarship" />
+	<meta property="og:description" content="NNPC/Chevron JV Scholarship" />
 	<meta property="og:image" content="preview.png"/>
 	
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:url" content="index-2.html">
+	<meta name="twitter:url" content="index.php">
 	<meta name="twitter:creator" content="@themetrades">
-	<meta name="twitter:title" content="EduChamp : Education HTML Template">
+	<meta name="twitter:title" content="NNPC/Chevron JV Scholarship">
 	<meta name="twitter:description" content="EduChamp is a Fully Creative Mobile Responsive HTML Template. It is designed specifically for University, College, School, Training centre or other educational institute.">
 	
 	<meta name="format-detection" content="telephone=no">

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from educhamp.themetrades.com/demo/about-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 14 Jul 2019 14:23:15 GMT -->
 <head>
 
 	<!-- META ============================================= -->
@@ -13,7 +12,7 @@
 	
 	<meta name="keywords" content="Web Design, Education, Institute, Study" />
 	<meta name="author" content="ThemeTrades" />
-	<meta name="description" content="EduChamp is a Fully Creative Mobile Responsive HTML Template. It is designed specifically for University, College, School, Training centre or other educational institute." />
+	<meta name="description" content="NNPC/Chevron JV Scholarship" />
 	
 	<meta property="og:url" content="index.html" />
 	<meta property="og:site_name" content="EduChamp : Education HTML Template"/>
@@ -32,11 +31,12 @@
 	<meta name="format-detection" content="telephone=no">
 	
 	<!-- FAVICONS ICON ============================================= -->
+	<!--
 	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
 	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
-	
+-->
 	<!-- PAGE TITLE HERE ============================================= -->
-	<title>EduChamp : Education HTML Template </title>
+	<title>NNPC/Chevron JV Scholarship</title>
 	
 	<!-- MOBILE SPECIFIC ============================================= -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -70,20 +70,14 @@
 				<div class="row d-flex justify-content-between">
 					<div class="topbar-left">
 						<ul>
-							<li><a href="faq-1.html"><i class="fa fa-question-circle"></i>Ask a Question</a></li>
+							<li><a href="faq.php"><i class="fa fa-question-circle"></i>Ask a Question</a></li>
 							<li><a href="javascript:;"><i class="fa fa-envelope-o"></i>Support@website.com</a></li>
 						</ul>
 					</div>
 					<div class="topbar-right">
 						<ul>
-							<li>
-								<select class="header-lang-bx">
-									<option data-icon="flag flag-uk">English UK</option>
-									<option data-icon="flag flag-us">English US</option>
-								</select>
-							</li>
-							<li><a href="login.html">Login</a></li>
-							<li><a href="register.html">Register</a></li>
+							<li><a href="login.php">Login</a></li>
+							<li><a href="register.php">Register</a></li>
 						</ul>
 					</div>
 				</div>
@@ -94,7 +88,7 @@
                 <div class="container clearfix">
 					<!-- Header Logo ==== -->
 					<div class="menu-logo">
-						<a href="index-2.html"><img src="assets/images/logo.png" alt=""></a>
+						<a href="index.php"><img src="assets/images/logo.png" alt=""></a>
 					</div>
 					<!-- Mobile Nav Button ==== -->
                     <button class="navbar-toggler collapsed menuicon justify-content-end" type="button" data-toggle="collapse" data-target="#menuDropdown" aria-controls="menuDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -125,97 +119,16 @@
 					<!-- Navigation Menu ==== -->
                     <div class="menu-links navbar-collapse collapse justify-content-start" id="menuDropdown">
 						<div class="menu-logo">
-							<a href="index-2.html"><img src="assets/images/logo.png" alt=""></a>
+							<a href="index.php"><img src="assets/images/logo.png" alt=""></a>
 						</div>
-                        <ul class="nav navbar-nav">	
-							<li class="active"><a href="javascript:;">Home <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="index-2.html">Home 1</a></li>
-									<li><a href="index-4.html">Home 2</a></li>
-									<li><a href="index-3.html">Home 3</a></li>
-								</ul>
+						<ul class="nav navbar-nav">	
+							<li class="active"><a href="index.php">Home</a>
 							</li>
-							<li><a href="javascript:;">Pages <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="javascript:;">About<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="about-1.html">About 1</a></li>
-											<li><a href="about-2.html">About 2</a></li>
-										</ul>
-									</li>
-									<li><a href="javascript:;">Event<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="event.html">Event</a></li>
-											<li><a href="events-details.html">Events Details</a></li>
-										</ul>
-									</li>
-									<li><a href="javascript:;">FAQ's<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="faq-1.html">FAQ's 1</a></li>
-											<li><a href="faq-2.html">FAQ's 2</a></li>
-										</ul>
-									</li>
-									<li><a href="javascript:;">Contact Us<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="contact-1.html">Contact Us 1</a></li>
-											<li><a href="contact-2.html">Contact Us 2</a></li>
-										</ul>
-									</li>
-									<li><a href="portfolio.html">Portfolio</a></li>
-									<li><a href="profile.html">Profile</a></li>
-									<li><a href="membership.html">Membership</a></li>
-									<li><a href="error-404.html">404 Page</a></li>
-								</ul>
+							<li><a href="about.php">About Us</a>
 							</li>
-							<li class="add-mega-menu"><a href="javascript:;">Our Courses <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu add-menu">
-									<li class="add-menu-left">
-										<h5 class="menu-adv-title">Our Courses</h5>
-										<ul>
-											<li><a href="courses.html">Courses </a></li>
-											<li><a href="courses-details.html">Courses Details</a></li>
-											<li><a href="profile.html">Instructor Profile</a></li>
-											<li><a href="event.html">Upcoming Event</a></li>
-											<li><a href="membership.html">Membership</a></li>
-										</ul>
-									</li>
-									<li class="add-menu-right">
-										<img src="assets/images/adv/adv.jpg" alt=""/>
-									</li>
-								</ul>
+							<li><a href="about.php">Eligibility</a>
 							</li>
-							<li><a href="javascript:;">Blog <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="blog-classic-grid.html">Blog Classic</a></li>
-									<li><a href="blog-classic-sidebar.html">Blog Classic Sidebar</a></li>
-									<li><a href="blog-list-sidebar.html">Blog List Sidebar</a></li>
-									<li><a href="blog-standard-sidebar.html">Blog Standard Sidebar</a></li>
-									<li><a href="blog-details.html">Blog Details</a></li>
-								</ul>
-							</li>
-							<li class="nav-dashboard"><a href="javascript:;">Dashboard <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="admin/index.html">Dashboard</a></li>
-									<li><a href="admin/add-listing.html">Add Listing</a></li>
-									<li><a href="admin/bookmark.html">Bookmark</a></li>
-									<li><a href="admin/courses.html">Courses</a></li>
-									<li><a href="admin/review.html">Review</a></li>
-									<li><a href="admin/teacher-profile.html">Teacher Profile</a></li>
-									<li><a href="admin/user-profile.html">User Profile</a></li>
-									<li><a href="javascript:;">Calendar<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="admin/basic-calendar.html">Basic Calendar</a></li>
-											<li><a href="admin/list-view-calendar.html">List View Calendar</a></li>
-										</ul>
-									</li>
-									<li><a href="javascript:;">Mailbox<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="admin/mailbox.html">Mailbox</a></li>
-											<li><a href="admin/mailbox-compose.html">Compose</a></li>
-											<li><a href="admin/mailbox-read.html">Mail Read</a></li>
-										</ul>
-									</li>
-								</ul>
+							<li><a href="contact.php">Contact Us</a>
 							</li>
 						</ul>
 						<div class="nav-social-link">
@@ -236,15 +149,15 @@
         <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner3.jpg);">
             <div class="container">
                 <div class="page-banner-entry">
-                    <h1 class="text-white">About Us 2</h1>
+                    <h1 class="text-white">About us</h1>
 				 </div>
             </div>
         </div>
 		<div class="breadcrumb-row">
 			<div class="container">
 				<ul class="list-inline">
-					<li><a href="#">Home</a></li>
-					<li>About Us 2</li>
+					<li><a href="index.php">Home</a></li>
+					<li>About us</li>
 				</ul>
 			</div>
 		</div>
@@ -255,60 +168,17 @@
 			<div class="section-area section-sp1">
                 <div class="container">
 					 <div class="row">
-						 <div class="col-lg-6 m-b30">
-							<h2 class="title-head ">Learn a new skill online<br/> <span class="text-primary"> on your time</span></h2>
-							<h4><span class="counter">57,000 </span> Online Courses</h4>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-							<a href="#" class="btn button-md">Join Now</a>
+						 <div class="col-lg-12 m-b30">
+							<h2 class="title-head ">NNPC/Chevron<br/> <span class="text-primary"> JV Scholarship Program</span></h2>
+							<p>Chevron Nigeria Limited holds the view that the education is the key to unlocking the potential of the youth and developing their capacity for societal relevance. This is one of the critical reasons why the company is committed to promoting quality education in partnership with the government and other stakeholders. The focus of this partnership is to empower the youth for the challenges of the modern world.</p>
+							<p>
+							The cornerstone of our education support strategy is to provide and improve educational opportunities and make them available to young people. This is because the company is committed to contributing to supporting sustained human capacity development in Nigeria, by giving many brilliant students the opportunity of fulfilling their academic aspirations.
+							</p>
+							<p>
+							To attain this objective, the NNPC/Chevron Joint Venture provides thousands of scholarships annually to Nigeria students in secondary and tertiary institutions
+							</p>
+							<a href="register.php" class="btn button-md">Apply Now</a>
 						 </div>
-						 <div class="col-lg-6">
-							 <div class="row">
-								<div class="col-lg-6 col-md-6 col-sm-6 m-b30">
-									<div class="feature-container">
-										<div class="feature-md text-white m-b20">
-											<a href="#" class="icon-cell"><img src="assets/images/icon/icon1.png" alt=""/></a> 
-										</div>
-										<div class="icon-content">
-											<h5 class="ttr-tilte">Our Philosophy</h5>
-											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6 m-b30">
-									<div class="feature-container">
-										<div class="feature-md text-white m-b20">
-											<a href="#" class="icon-cell"><img src="assets/images/icon/icon2.png" alt=""/></a> 
-										</div>
-										<div class="icon-content">
-											<h5 class="ttr-tilte">Kingster's Principle</h5>
-											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6 m-b30">
-									<div class="feature-container">
-										<div class="feature-md text-white m-b20">
-											<a href="#" class="icon-cell"><img src="assets/images/icon/icon3.png" alt=""/></a> 
-										</div>
-										<div class="icon-content">
-											<h5 class="ttr-tilte">Key Of Success</h5>
-											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6 m-b30">
-									<div class="feature-container">
-										<div class="feature-md text-white m-b20">
-											<a href="#" class="icon-cell"><img src="assets/images/icon/icon4.png" alt=""/></a> 
-										</div>
-										<div class="icon-content">
-											<h5 class="ttr-tilte">Our Philosophy</h5>
-											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
             </div>
@@ -478,34 +348,17 @@
     </div>
 	<!-- Page Content Box END ==== -->
 	<!-- Footer ==== -->
-    <footer>
+	<footer>
         <div class="footer-top">
 			<div class="pt-exebar">
-				<div class="container">
-					<div class="d-flex align-items-stretch">
-						<div class="pt-logo mr-auto">
-							<a href="index-2.html"><img src="assets/images/logo-white.png" alt=""/></a>
-						</div>
-						<div class="pt-social-link">
-							<ul class="list-inline m-a0">
-								<li><a href="#" class="btn-link"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#" class="btn-link"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#" class="btn-link"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="#" class="btn-link"><i class="fa fa-google-plus"></i></a></li>
-							</ul>
-						</div>
-						<div class="pt-btn-join">
-							<a href="#" class="btn ">Join Now</a>
-						</div>
-					</div>
-				</div>
+				
 			</div>
             <div class="container">
                 <div class="row">
-					<div class="col-lg-4 col-md-12 col-sm-12 footer-col-4">
+					<div class="col-lg-5 col-md-12 col-sm-12 footer-col-4">
                         <div class="widget">
                             <h5 class="footer-title">Sign Up For A Newsletter</h5>
-							<p class="text-capitalize m-b20">Weekly Breaking news analysis and cutting edge advices on job searching.</p>
+							<p class="text-capitalize m-b20">Weekly news on new scholarship opportunities</p>
                             <div class="subscribe-form m-b20">
 								<form class="subscription-form" action="http://educhamp.themetrades.com/demo/assets/script/mailchamp.php" method="post">
 									<div class="ajax-message"></div>
@@ -519,57 +372,29 @@
 							</div>
                         </div>
                     </div>
-					<div class="col-12 col-lg-5 col-md-7 col-sm-12">
+					<div class="col-12 col-lg-7 col-md-9 col-sm-12">
 						<div class="row">
-							<div class="col-4 col-lg-4 col-md-4 col-sm-4">
+							<div class="col-5 col-lg-5 col-md-5 col-sm-5">
 								<div class="widget footer_widget">
-									<h5 class="footer-title">Company</h5>
+									<h5 class="footer-title">Site Links</h5>
 									<ul>
-										<li><a href="index-2.html">Home</a></li>
-										<li><a href="about-1.html">About</a></li>
-										<li><a href="faq-1.html">FAQs</a></li>
-										<li><a href="contact-1.html">Contact</a></li>
+										<li><a href="index.php">Home</a></li>
+										<li><a href="about.php">About</a></li>
+										<li><a href="about.php">Eligibility</a></li>
+										<li><a href="contact.php">Contact Us</a></li>
 									</ul>
 								</div>
 							</div>
-							<div class="col-4 col-lg-4 col-md-4 col-sm-4">
+							<div class="col-4 col-lg-7 col-md-9 col-sm-4">
 								<div class="widget footer_widget">
-									<h5 class="footer-title">Get In Touch</h5>
+									<h5 class="footer-title">Others</h5>
 									<ul>
-										<li><a href="http://educhamp.themetrades.com/admin/index.html">Dashboard</a></li>
-										<li><a href="blog-classic-grid.html">Blog</a></li>
-										<li><a href="portfolio.html">Portfolio</a></li>
-										<li><a href="event.html">Event</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-4 col-lg-4 col-md-4 col-sm-4">
-								<div class="widget footer_widget">
-									<h5 class="footer-title">Courses</h5>
-									<ul>
-										<li><a href="courses.html">Courses</a></li>
-										<li><a href="courses-details.html">Details</a></li>
-										<li><a href="membership.html">Membership</a></li>
-										<li><a href="profile.html">Profile</a></li>
+										<li><a href="faq.php">FaQ</a></li>
+										<li><a href="privacy.php">Privacy Policy</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
-                    </div>
-					<div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
-                        <div class="widget widget_gallery gallery-grid-4">
-                            <h5 class="footer-title">Our Gallery</h5>
-                            <ul class="magnific-image">
-								<li><a href="assets/images/gallery/pic1.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic1.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic2.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic2.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic3.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic3.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic4.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic4.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic5.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic5.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic6.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic6.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic7.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic7.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic8.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic8.jpg" alt=""></a></li>
-							</ul>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -577,7 +402,7 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 text-center"> © 2019 <span class="text-white">EduChamp</span>  All Rights Reserved.</div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center"> © 2019 <span class="text-white">Powered By</span> U-Connect</div>
                 </div>
             </div>
         </div>
@@ -600,8 +425,6 @@
 <script src="assets/vendors/owl-carousel/owl.carousel.js"></script>
 <script src="assets/js/functions.js"></script>
 <script src="assets/js/contact.js"></script>
-<script src='assets/vendors/switcher/switcher.js'></script>
 </body>
 
-<!-- Mirrored from educhamp.themetrades.com/demo/about-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 14 Jul 2019 14:23:15 GMT -->
 </html>
