@@ -426,7 +426,7 @@ dl dd { margin-bottom: 10px; }
     margin-bottom: 15px;
 }
 .heading-bx p {
-    padding-top: 10px;
+    padding: 10px 100px 0px 100px;
     font-size: 16px;
     color: #0f192d;
 }

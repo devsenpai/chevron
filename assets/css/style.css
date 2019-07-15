@@ -1983,7 +1983,11 @@ footer.footer-white .btn {
 	border-left: 1px solid rgba(0,0,0,0.1);
 }
 
-
+.centermov{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
 
 
 
@@ -2335,12 +2339,12 @@ footer.footer-white .btn {
 	margin-bottom: 10px;
     margin-top: 0;
     line-height: 32px;
-    padding-left: 10px;
-    border-left: 5px solid var(--primary);
+	padding-left: 10px;
+	text-align: center;
 }
 .heading-bx.left p{
-	max-width:500px;
 	margin-bottom:0;
+	text-align: center;
 }
 .title-head span{
 	font-weight:400;
