@@ -144,13 +144,13 @@
 	font-family: rubik;
 }
 .btn {
-    background-color: #EFBB20;
+    background-color: #e21928;
 }
 .btn:active,
 .btn:hover,
 .btn:focus,
 .active > .btn {
-    background-color: #d8a409;
+    background-color: #e21928;
     color: #fff;
 }
 .btn-secondry {
@@ -729,8 +729,8 @@
 /* yellow */
 
 .btn.outline.yellow {
-    color: #EFBB20;
-    border-color: #EFBB20;
+    color: #e21928;
+    border-color: #e21928;
 }
 /* purple */
 
@@ -1294,7 +1294,7 @@
 }
 .feature-filters .active > [class*="btn"] {
     color: #fff;
-    background-color: #EFBB20;
+    background-color: #e21928;
 }
 .feature-filters.center {
     text-align: center;

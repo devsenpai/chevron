@@ -18,7 +18,7 @@ if( isset($_POST['registerUser']) ){
     }else {
       // save to database
       // redirect to confirm email page
-      header('Location: profile.php');
+      header('Location: ./admin/profile.php'); // change the . to base_url
       // shows sweet alert
       // $result = " 
       //   <script type=\"text/javascript\">

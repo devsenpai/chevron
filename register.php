@@ -45,7 +45,7 @@
 	<script src="assets/js/respond.min.js"></script>
   <![endif]-->
 
-  <!-- SweetAlert Style -->
+  <!-- SweetAlert Style --> 
   <link rel="stylesheet" href="assets/css/sweetalert.css">
   <script src="assets/js/sweetalert.min.js"></script>
 	
