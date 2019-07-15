@@ -129,7 +129,7 @@
                                 </li>
                                 <li><a href="about.php">About Us</a>
                                 </li>
-                                <li><a href="about.php">Eligibility</a>
+                                <li><a href="#eligibility">Eligibility</a>
                                 </li>
                                 <li><a href="contact.php">Contact Us</a>
                                 </li>
@@ -187,12 +187,12 @@
                 </div>
                 <!-- About Us END ==== -->
                 <!-- Why Choose ==== -->
-                <div class="section-area bg-gray section-sp2 choose-bx">
+                <div class="section-area bg-gray section-sp2 choose-bx" id="eligibility">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12 m-b30">
                                 <h2 class="title-head ">Eligibility<br/> <span class="text-primary">The NNPC/Chevron Joint Venture National University scholarship program </span></h2>
-                                <ul>
+                                <ul style="line-height: 50px;">
                                     <li>The NNPC/Chevron Joint Venture National University scholarship program </li>
                                     <li>Be a Registered FULL TIME undergraduate in a recognized Nigerian University</li>
                                     <li>Be a certified 200 level student at the time of application</li>
@@ -203,74 +203,11 @@
                                     <li>Upload proof of A-level or Equivalent Certificate (for direct entry students)</li>
                                     <li>Upload proof of National ID card</li>
                                 </ul>
-                                <a href="register.php" class="btn button-md">Apply Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Why Choose END ==== -->
-                <!-- Company Status ==== -->
-                <div class="section-area content-inner section-sp1">
-                    <div class="container">
-                        <div class="section-content">
-                            <div class="row">
-                                <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-                                    <div class="counter-style-1">
-                                        <div class="text-primary">
-                                            <span class="counter">3000</span><span>+</span>
-                                        </div>
-                                        <span class="counter-text">Completed Projects</span>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-                                    <div class="counter-style-1">
-                                        <div class="text-black">
-                                            <span class="counter">2500</span><span>+</span>
-                                        </div>
-                                        <span class="counter-text">Happy Clients</span>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-                                    <div class="counter-style-1">
-                                        <div class="text-primary">
-                                            <span class="counter">1500</span><span>+</span>
-                                        </div>
-                                        <span class="counter-text">Questions Answered</span>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-                                    <div class="counter-style-1">
-                                        <div class="text-black">
-                                            <span class="counter">1000</span><span>+</span>
-                                        </div>
-                                        <span class="counter-text">Ordered Coffee's</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Company Stats END ==== -->
-                <!-- Our Story ==== -->
-                <div class="section-area bg-gray section-sp1 our-story">
-                    <div class="container">
-                        <div class="row align-items-center d-flex">
-                            <div class="col-lg-5 col-md-12 heading-bx">
-                                <h2 class="m-b10">Our Story</h2>
-                                <h5 class="fw4">It is a long established fact that a reade.</h5>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                                <a href="#" class="btn">Read More</a>
-                            </div>
-                            <div class="col-lg-7 col-md-12 heading-bx p-lr">
-                                <div class="video-bx">
-                                    <img src="assets/images/about/pic1.jpg" alt="" />
-                                    <a href="https://www.youtube.com/watch?v=x_sJzVe9P_8" class="popup-youtube video"><i class="fa fa-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Our Story END ==== -->
+                <!-- Eligibility END ==== -->
                 <!-- Testimonials ==== -->
                 <div class="section-area section-sp2">
                     <div class="container">
