@@ -2,7 +2,7 @@
 	<footer>
         <div class="footer-top">
 			<div class="pt-exebar">
-				
+
 			</div>
             <div class="container">
                 <div class="row">
@@ -17,7 +17,7 @@
 										<input name="email" required="required"  class="form-control" placeholder="Your Email Address" type="email">
 										<span class="input-group-btn">
 											<button name="submit" value="Submit" type="submit" class="btn"><i class="fa fa-arrow-right"></i></button>
-										</span> 
+										</span>
 									</div>
 								</form>
 							</div>
@@ -85,10 +85,7 @@
 
 
 
-<?php if( 
-  ($_SERVER['REQUEST_URI'] == "/chevron/index.php")
-  || ($_SERVER['REQUEST_URI'] == "/chevron/")
-): ?>
+<?php if(isset($is_home)): ?>
 
 <!-- Revolution JavaScripts Files -->
 <script src="assets/vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
@@ -149,7 +146,7 @@ jQuery(document).ready(function() {
 						v_offset: 0
 					}
 				},
-				
+
 			},
 			viewPort: {
 				enable:true,
@@ -188,7 +185,7 @@ jQuery(document).ready(function() {
 			}
 		});
 	}
-});	
+});
 </script>
 <?php endif; ?>
 </body>

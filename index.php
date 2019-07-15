@@ -1,3 +1,6 @@
+<?php
+$is_home = true;
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -178,7 +181,7 @@
 				</div>
 			</div>
 			<!-- Testimonials END -->
-			
+
 			<!-- Recent News -->
 			<div class="section-area section-sp2">
                 <div class="container">
@@ -250,10 +253,10 @@
 				</div>
 			</div>
 			<!-- Recent News End -->
-			
+
         </div>
 		<!-- contact area END -->
     </div>
     <!-- Content END-->
-	
+
     <?php include_once ('./inc/footer.php'); ?>
