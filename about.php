@@ -72,7 +72,7 @@
         <!-- Inner Content Box ==== -->
         <div class="page-content bg-white">
             <!-- Page Heading Box ==== -->
-            <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner3.jpg);">
+            <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner4.jpg);">
                 <div class="container">
                     <div class="page-banner-entry">
                         <h1 class="text-white">About us</h1>

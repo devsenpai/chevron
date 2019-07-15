@@ -62,7 +62,7 @@
                                 </li>
                                 <li><a href="about.php">About Us</a>
                                 </li>
-                                <li><a href="about.php">Eligibility</a>
+                                <li><a href="about.php#eligibility">Eligibility</a>
                                 </li>
                                 <li><a href="contact.php">Contact Us</a>
                                 </li>
