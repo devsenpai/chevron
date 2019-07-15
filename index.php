@@ -32,9 +32,10 @@
 	<meta name="format-detection" content="telephone=no">
 	
 	<!-- FAVICONS ICON ============================================= -->
+	<!--
 	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
 	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
-	
+-->
 	<!-- PAGE TITLE HERE ============================================= -->
 	<title>NNPC/Chevron JV Scholarship</title>
 	
@@ -132,55 +133,9 @@
 							</li>
 							<li><a href="about.php">About Us</a>
 							</li>
-							<li class="add-mega-menu"><a href="javascript:;">Our Courses <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu add-menu">
-									<li class="add-menu-left">
-										<h5 class="menu-adv-title">Our Courses</h5>
-										<ul>
-											<li><a href="courses.html">Courses </a></li>
-											<li><a href="courses-details.html">Courses Details</a></li>
-											<li><a href="profile.html">Instructor Profile</a></li>
-											<li><a href="event.html">Upcoming Event</a></li>
-											<li><a href="membership.html">Membership</a></li>
-										</ul>
-									</li>
-									<li class="add-menu-right">
-										<img src="assets/images/adv/adv.jpg" alt=""/>
-									</li>
-								</ul>
+							<li><a href="about.php">Eligibility</a>
 							</li>
-							<li><a href="javascript:;">Blog <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="blog-classic-grid.html">Blog Classic</a></li>
-									<li><a href="blog-classic-sidebar.html">Blog Classic Sidebar</a></li>
-									<li><a href="blog-list-sidebar.html">Blog List Sidebar</a></li>
-									<li><a href="blog-standard-sidebar.html">Blog Standard Sidebar</a></li>
-									<li><a href="blog-details.html">Blog Details</a></li>
-								</ul>
-							</li>
-							<li class="nav-dashboard"><a href="javascript:;">Dashboard <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="admin/index.html">Dashboard</a></li>
-									<li><a href="admin/add-listing.html">Add Listing</a></li>
-									<li><a href="admin/bookmark.html">Bookmark</a></li>
-									<li><a href="admin/courses.html">Courses</a></li>
-									<li><a href="admin/review.html">Review</a></li>
-									<li><a href="admin/teacher-profile.html">Teacher Profile</a></li>
-									<li><a href="admin/user-profile.html">User Profile</a></li>
-									<li><a href="javascript:;">Calendar<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="admin/basic-calendar.html">Basic Calendar</a></li>
-											<li><a href="admin/list-view-calendar.html">List View Calendar</a></li>
-										</ul>
-									</li>
-									<li><a href="javascript:;">Mailbox<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="admin/mailbox.html">Mailbox</a></li>
-											<li><a href="admin/mailbox-compose.html">Compose</a></li>
-											<li><a href="admin/mailbox-read.html">Mail Read</a></li>
-										</ul>
-									</li>
-								</ul>
+							<li><a href="contact.php">Contact Us</a>
 							</li>
 						</ul>
 						<div class="nav-social-link">
@@ -373,149 +328,17 @@
                 <div class="container">
 					<div class="row">
 						<div class="col-md-12 heading-bx left">
-							<h2 class="title-head">Popular <span>Courses</span></h2>
+							<h2 class="title-head"><span>About</span> NNPC/Chevron JV Scholarship Program</h2>
 							<p>Chevron Nigeria Limited holds the view that the education is the key to unlocking the potential of the youth and developing their capacity for societal relevance. This is one of the critical reasons why the company is committed to promoting quality education in partnership with the government and other stakeholders. The focus of this partnership is to empower the youth for the challenges of the modern world.</p>
+						</div>
+						<div class="centermov">
+							<a href="register.php" class="btn ">Apply Now</a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<!-- Popular Courses END -->
-			
-			<!-- Form -->
-			<div class="section-area section-sp1 ovpr-dark bg-fix online-cours" style="background-image:url(assets/images/background/bg1.jpg);">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 text-center text-white">
-							<h2>Online Courses To Learn</h2>
-							<h5>Own Your Feature Learning New Skills Online</h5>
-							<form class="cours-search">
-								<div class="input-group">
-									<input type="text" class="form-control" placeholder="What do you want to learn today?	">
-									<div class="input-group-append">
-										<button class="btn" type="submit">Search</button> 
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
-					<div class="mw800 m-auto">
-						<div class="row">
-							<div class="col-md-4 col-sm-6">
-								<div class="cours-search-bx m-b30">
-									<div class="icon-box">
-										<h3><i class="ti-user"></i><span class="counter">5</span>M</h3>
-									</div>
-									<span class="cours-search-text">Over 5 million student</span>
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-6">
-								<div class="cours-search-bx m-b30">
-									<div class="icon-box">
-										<h3><i class="ti-book"></i><span class="counter">30</span>K</h3>
-									</div>
-									<span class="cours-search-text">30,000 Courses.</span>
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-12">
-								<div class="cours-search-bx m-b30">
-									<div class="icon-box">
-										<h3><i class="ti-layout-list-post"></i><span class="counter">20</span>K</h3>
-									</div>
-									<span class="cours-search-text">Learn Anythink Online.</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Form END -->
-			<div class="section-area section-sp2">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 text-center heading-bx">
-							<h2 class="title-head m-b0">Upcoming <span>Events</span></h2>
-							<p class="m-b0">Upcoming Education Events To Feed Brain. </p>
-						</div>
-					</div>
-					<div class="row">
-					<div class="upcoming-event-carousel owl-carousel owl-btn-center-lr owl-btn-1 col-12 p-lr0  m-b30">
-						<div class="item">
-							<div class="event-bx">
-								<div class="action-box">
-									<img src="assets/images/event/pic4.jpg" alt="">
-								</div>
-								<div class="info-bx d-flex">
-									<div>
-										<div class="event-time">
-											<div class="event-date">29</div>
-											<div class="event-month">October</div>
-										</div>
-									</div>
-									<div class="event-info">
-										<h4 class="event-title"><a href="#">Education Autumn Tour 2019</a></h4>
-										<ul class="media-post">
-											<li><a href="#"><i class="fa fa-clock-o"></i> 7:00am 8:00am</a></li>
-											<li><a href="#"><i class="fa fa-map-marker"></i> Berlin, Germany</a></li>
-										</ul>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the..</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="event-bx">
-								<div class="action-box">
-									<img src="assets/images/event/pic3.jpg" alt="">
-								</div>
-								<div class="info-bx d-flex">
-									<div>
-										<div class="event-time">
-											<div class="event-date">29</div>
-											<div class="event-month">October</div>
-										</div>
-									</div>
-									<div class="event-info">
-										<h4 class="event-title"><a href="#">Education Autumn Tour 2019</a></h4>
-										<ul class="media-post">
-											<li><a href="#"><i class="fa fa-clock-o"></i> 7:00am 8:00am</a></li>
-											<li><a href="#"><i class="fa fa-map-marker"></i> Berlin, Germany</a></li>
-										</ul>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the..</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="event-bx">
-								<div class="action-box">
-									<img src="assets/images/event/pic2.jpg" alt="">
-								</div>
-								<div class="info-bx d-flex">
-									<div>
-										<div class="event-time">
-											<div class="event-date">29</div>
-											<div class="event-month">October</div>
-										</div>
-									</div>
-									<div class="event-info">
-										<h4 class="event-title"><a href="#">Education Autumn Tour 2019</a></h4>
-										<ul class="media-post">
-											<li><a href="#"><i class="fa fa-clock-o"></i> 7:00am 8:00am</a></li>
-											<li><a href="#"><i class="fa fa-map-marker"></i> Berlin, Germany</a></li>
-										</ul>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the..</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					</div>
-					<div class="text-center">
-						<a href="#" class="btn">View All Event</a>
-					</div>
-				</div>
-			</div>
-			
+
 			<!-- Testimonials -->
 			<div class="section-area section-sp2 bg-fix ovbl-dark" style="background-image:url(assets/images/background/bg1.jpg);">
                 <div class="container">
@@ -639,31 +462,14 @@
     <footer>
         <div class="footer-top">
 			<div class="pt-exebar">
-				<div class="container">
-					<div class="d-flex align-items-stretch">
-						<div class="pt-logo mr-auto">
-							<a href="index.html"><img src="assets/images/logo-white.png" alt=""/></a>
-						</div>
-						<div class="pt-social-link">
-							<ul class="list-inline m-a0">
-								<li><a href="#" class="btn-link"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#" class="btn-link"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#" class="btn-link"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="#" class="btn-link"><i class="fa fa-google-plus"></i></a></li>
-							</ul>
-						</div>
-						<div class="pt-btn-join">
-							<a href="#" class="btn ">Join Now</a>
-						</div>
-					</div>
-				</div>
+				
 			</div>
             <div class="container">
                 <div class="row">
-					<div class="col-lg-4 col-md-12 col-sm-12 footer-col-4">
+					<div class="col-lg-5 col-md-12 col-sm-12 footer-col-4">
                         <div class="widget">
                             <h5 class="footer-title">Sign Up For A Newsletter</h5>
-							<p class="text-capitalize m-b20">Weekly Breaking news analysis and cutting edge advices on job searching.</p>
+							<p class="text-capitalize m-b20">Weekly news on new scholarship opportunities</p>
                             <div class="subscribe-form m-b20">
 								<form class="subscription-form" action="http://educhamp.themetrades.com/demo/assets/script/mailchamp.php" method="post">
 									<div class="ajax-message"></div>
@@ -677,57 +483,29 @@
 							</div>
                         </div>
                     </div>
-					<div class="col-12 col-lg-5 col-md-7 col-sm-12">
+					<div class="col-12 col-lg-7 col-md-9 col-sm-12">
 						<div class="row">
-							<div class="col-4 col-lg-4 col-md-4 col-sm-4">
+							<div class="col-5 col-lg-5 col-md-5 col-sm-5">
 								<div class="widget footer_widget">
-									<h5 class="footer-title">Company</h5>
+									<h5 class="footer-title">Site Links</h5>
 									<ul>
-										<li><a href="index.html">Home</a></li>
-										<li><a href="about-1.html">About</a></li>
-										<li><a href="faq-1.html">FAQs</a></li>
-										<li><a href="contact-1.html">Contact</a></li>
+										<li><a href="index.php">Home</a></li>
+										<li><a href="about.php">About</a></li>
+										<li><a href="about.php">Eligibility</a></li>
+										<li><a href="contact.php">Contact Us</a></li>
 									</ul>
 								</div>
 							</div>
-							<div class="col-4 col-lg-4 col-md-4 col-sm-4">
+							<div class="col-4 col-lg-7 col-md-9 col-sm-4">
 								<div class="widget footer_widget">
-									<h5 class="footer-title">Get In Touch</h5>
+									<h5 class="footer-title">Others</h5>
 									<ul>
-										<li><a href="http://educhamp.themetrades.com/admin/index.html">Dashboard</a></li>
-										<li><a href="blog-classic-grid.html">Blog</a></li>
-										<li><a href="portfolio.html">Portfolio</a></li>
-										<li><a href="event.html">Event</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-4 col-lg-4 col-md-4 col-sm-4">
-								<div class="widget footer_widget">
-									<h5 class="footer-title">Courses</h5>
-									<ul>
-										<li><a href="courses.html">Courses</a></li>
-										<li><a href="courses-details.html">Details</a></li>
-										<li><a href="membership.html">Membership</a></li>
-										<li><a href="profile.html">Profile</a></li>
+										<li><a href="faq.php">FaQ</a></li>
+										<li><a href="privacy.php">Privacy Policy</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
-                    </div>
-					<div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
-                        <div class="widget widget_gallery gallery-grid-4">
-                            <h5 class="footer-title">Our Gallery</h5>
-                            <ul class="magnific-image">
-								<li><a href="assets/images/gallery/pic1.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic1.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic2.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic2.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic3.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic3.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic4.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic4.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic5.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic5.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic6.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic6.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic7.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic7.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic8.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic8.jpg" alt=""></a></li>
-							</ul>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -735,7 +513,7 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 text-center"> © 2019 <span class="text-white">EduChamp</span>  All Rights Reserved.</div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center"> © 2019 <span class="text-white">Powered By</span> U-Connect</div>
                 </div>
             </div>
         </div>
