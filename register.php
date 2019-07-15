@@ -35,7 +35,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
 	
 	<!-- PAGE TITLE HERE ============================================= -->
-	<title>EduChamp : Education HTML Template </title>
+	<title>NNPC/Chevron Register Page </title>
 	
 	<!-- MOBILE SPECIFIC ============================================= -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,7 +43,11 @@
 	<!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.min.js"></script>
 	<script src="assets/js/respond.min.js"></script>
-	<![endif]-->
+  <![endif]-->
+
+  <!-- SweetAlert Style -->
+  <link rel="stylesheet" href="assets/css/sweetalert.css">
+  <script src="assets/js/sweetalert.min.js"></script>
 	
 	<!-- All PLUGINS CSS ============================================= -->
 	<link rel="stylesheet" type="text/css" href="assets/css/assets.css">
@@ -60,6 +64,9 @@
 	
 </head>
 <body id="bg">
+
+<?php include_once ('./controllers/parse-register.php'); ?>
+
 <div class="page-wraper">
 	<div id="loading-icon-bx"></div>
 	<div class="account-form">
@@ -71,14 +78,20 @@
 				<div class="heading-bx left">
 					<h2 class="title-head">Sign Up <span>Now</span></h2>
 					<p>Login Your Account <a href="login.html">Click here</a></p>
-				</div>	
-				<form class="contact-bx">
+        </div>	
+        <?php if(isset($result)) echo $result; ?>
+        <?php if($error != ""): ?> 
+        <div class="alert alert-danger" role="alert">
+          <small><?= $error; ?></small>
+        </div>
+        <?php endif ?>
+				<form action="#" method="POST" class="contact-bx">
 					<div class="row placeani">
 						<div class="col-lg-12">
 							<div class="form-group">
 								<div class="input-group">
 									<label>Your Name</label>
-									<input name="name" type="text" required="" class="form-control">
+									<input name="name" type="text" value="<?= $name ?>" required="" class="form-control">
 								</div>
 							</div>
 						</div>
@@ -86,7 +99,7 @@
 							<div class="form-group">
 								<div class="input-group">
 									<label>Your Email Address</label>
-									<input name="email" type="email" required="" class="form-control">
+									<input name="email" type="email" value="<?= $email ?>" required="" class="form-control">
 								</div>
 							</div>
 						</div>
@@ -94,12 +107,20 @@
 							<div class="form-group">
 								<div class="input-group"> 
 									<label>Your Password</label>
-									<input name="password" type="password" class="form-control" required="">
+									<input name="password" type="password" value="<?= $password ?>" class="form-control" required="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="form-group">
+								<div class="input-group"> 
+									<label>Confirm Password</label>
+									<input name="confirm-password" type="password" value="<?= $confirm_password ?>" class="form-control" required="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-12 m-b30">
-							<button name="submit" type="submit" value="Submit" class="btn button-md">Sign Up</button>
+							<button name="registerUser" type="submit" value="Submit" class="btn button-md">Sign Up</button>
 						</div>
 						<div class="col-lg-12">
 							<h6>Sign Up with Social media</h6>
@@ -129,6 +150,7 @@
 <script src="assets/vendors/owl-carousel/owl.carousel.js"></script>
 <script src="assets/js/functions.js"></script>
 <script src="assets/js/contact.js"></script>
+<script src="assets/js/custom.js"></script>
 <script src='assets/vendors/switcher/switcher.js'></script>
 </body>
 
