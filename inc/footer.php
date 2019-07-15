@@ -40,8 +40,8 @@
 								<div class="widget footer_widget">
 									<h5 class="footer-title">Others</h5>
 									<ul>
-										<li><a href="faq.php">FaQ</a></li>
-										<li><a href="privacy.php">Privacy Policy</a></li>
+										<li><a href="#">FaQ</a></li>
+										<li><a href="#">Privacy Policy</a></li>
 									</ul>
 								</div>
 							</div>

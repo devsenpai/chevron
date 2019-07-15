@@ -35,7 +35,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
 	
 	<!-- PAGE TITLE HERE ============================================= -->
-	<title>EduChamp : Education HTML Template </title>
+	<title>NNPC/Chevron Login Page</title>
 	
 	<!-- MOBILE SPECIFIC ============================================= -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -70,7 +70,7 @@
 			<div class="account-container">
 				<div class="heading-bx left">
 					<h2 class="title-head">Login to your <span>Account</span></h2>
-					<p>Don't have an account? <a href="register.html">Create one here</a></p>
+					<p>Don't have an account? <a href="register.php">Create one here</a></p>
 				</div>	
 				<form class="contact-bx">
 					<div class="row placeani">
@@ -130,7 +130,6 @@
 <script src="assets/vendors/owl-carousel/owl.carousel.js"></script>
 <script src="assets/js/functions.js"></script>
 <script src="assets/js/contact.js"></script>
-<script src='assets/vendors/switcher/switcher.js'></script>
 </body>
 
 </html>

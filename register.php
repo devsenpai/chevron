@@ -77,7 +77,7 @@
 			<div class="account-container">
 				<div class="heading-bx left">
 					<h2 class="title-head">Sign Up <span>Now</span></h2>
-					<p>Login Your Account <a href="login.html">Click here</a></p>
+					<p>Login Your Account <a href="login.php">Click here</a></p>
         </div>	
         <?php if(isset($result)) echo $result; ?>
         <?php if($error != ""): ?> 
@@ -151,7 +151,6 @@
 <script src="assets/js/functions.js"></script>
 <script src="assets/js/contact.js"></script>
 <script src="assets/js/custom.js"></script>
-<script src='assets/vendors/switcher/switcher.js'></script>
 </body>
 
 </html>
