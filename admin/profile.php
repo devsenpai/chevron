@@ -65,7 +65,7 @@
 				<!-- header left menu start -->
 				<ul class="ttr-header-navigation">
 					<li>
-						<a href="/" class="ttr-material-button ttr-submenu-toggle">HOME</a>
+						<a href="index.html" class="ttr-material-button ttr-submenu-toggle">HOME</a>
 					</li>
 				</ul>
 				<!-- header left menu end -->
